@@ -1,16 +1,10 @@
 .App {
-  background-color: #ddffdd;
+  background-color: #e9ffe9;
   width: 400px;
   height: 100%;;
   margin: auto;
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (max-width: 768px) {
-  .App {
-    border: rgba(255, 97, 242, 0.514) 5px solid;
-  }
 }
 
 .userlist {
@@ -26,6 +20,20 @@
 .inputbox {
   flex: 1;
   background-color: rgb(255, 125, 153);
+}
+
+@media screen and (max-width: 768px) {
+  .userlist {
+    flex: 1;
+    background-color: #ff9659;
+  }
+  .chat {
+    background-color: rgb(200, 176, 255);
+  }
+  .inputbox {
+    flex: 1;
+    background-color: rgb(125, 255, 179);
+  }
 }
 
 .col-1 {width: 8.33%;}
